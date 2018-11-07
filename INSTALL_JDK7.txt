@@ -1,0 +1,13 @@
+﻿https://stackoverflow.com/questions/6477415/how-to-set-oracles-java-as-the-default-java-in-ubuntu
+https://askubuntu.com/questions/764849/how-can-i-install-jdk-8u91-linux-x64-tar-gz-on-ubuntu
+https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04
+
+mkdir -p /usr/java
+sudo mkdir -p /usr/java
+sudo tar xvzf jdk-7u80-linux-x64.tar.gz -C /usr/java/
+JAVA_HOME=/usr/java/jdk1.7.0_80/
+echo $JAVA_HOME
+sudo update-alternatives --install /usr/bin/java java ${JAVA_HOME%*/}/bin/java 20000
+sudo update-alternatives --install /usr/bin/javac javac ${JAVA_HOME%*/}/bin/javac 20000
+sudo update-alternatives --config java
+java -version
