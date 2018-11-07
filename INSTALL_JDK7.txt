@@ -2,6 +2,8 @@
 https://askubuntu.com/questions/764849/how-can-i-install-jdk-8u91-linux-x64-tar-gz-on-ubuntu
 https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04
 
+JDK download: https://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html
+
 mkdir -p /usr/java
 sudo mkdir -p /usr/java
 sudo tar xvzf jdk-7u80-linux-x64.tar.gz -C /usr/java/
