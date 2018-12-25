@@ -1,0 +1,111 @@
+Good morning everyone,
+ I am Kha Tran, I belong to industrial software solution group, RZ/G project.
+ My mentor is Loc Pham-san. Today I will show you my working status after one year
+ working in RVC. My presentation has 4 part.
+ 
+ The first one is the training target, the second one is the current status.
+ The third one is the difficulites and solution and the final is the commitment.
+ . Ok so we move to section one: Training target.
+ 
+My main target is become coding engineer level two after two year.
+To archive this target, I must improve four skill for technical skills that include
+Programming, development environment, verififcation and software development methodology.
+And two skills for soft skills.
+To know detail about above skill, we move to section two: current status.
+
+Here is my current level and also the training plan.
+All of skill are level 1.5(one dot five) now.
+
+About programming skill, I have a good knowledge about C language  when doing porting task such as
+u-boot, watchdog and something else.
+I have basic knowledge about C plus plus when doing IMR task
+I have basic about Java language when doing Android task.
+
+About Development environment skill,
+
+I can understand and modify recipes of RZ/G environment in Yocto. 
+And I also have knowledge about Android framework such as:
+Android kernel, libraries, application framework, android runtime, user applications.
+
+About verififcation skill,
+I have intermediate skill in debugging method. I can use some ways to debug such as:
+using lauterbach tools to read/write runtime, non-runtime register,
+using PVR tume to analyze cpu and memory load and using simple debug function like
+printk, pr_info.
+
+About software development methodology skill,
+
+I always try to make schedule when working, follow and do step by step.
+
+Next is the current status of soft skills.
+
+About the communication skills,
+
+I can communicate well with others colleague.
+I can show and explain my idea clearly.
+I have improved more about communication skill by dicussing with REL when doing IMR task.
+For English, reading skill is acceptable. I think listing and writing skill should be improved more.
+
+About the management skill, 
+
+When doing Android task, I had a chance to work in small team. I and teammate try to assign and arrange each item in this task and cross check.
+It helps me improve time management skill.
+
+After 1 year, I can create and define the target for my task.
+
+Even I get more experience after one year. Howerver, I still meet many difficult issue.
+To know detail about it, we move to section three: Difficulties and solutions
+
+The first difficulites is related to Programming skill.
+
+All my tasks are mainly porting. My logic thinking about alogithm is decreased.
+
+With some complex feature or function, I must spend more time to investigate and find solution to develop it.
+
+For this difficulty, My mentor sugguest the book, online course for me to practice.
+For me, I follow mentor's guidance and refer output from others colleague to learn new ways, new alogithm to improve my skill
+
+The next difficulty is related to development environment.
+The development environment is too big and complex. Especially is android. 
+So I can not understand clearly about it.
+
+For sime bugs/issues, it requires deep knowledge. I must learn and investigate more to
+understand the structure of environment to analyze and fix issue.
+
+For this difficulty, My mentor will share the debug tools, support to debug and suggest hints for me to debug easier.
+
+About me, I spend a few hours to investigate each parts of environment to understand.
+
+
+And this is the last difficulty. it is related to management skill.
+Sometimes, I can not keep my schedule because of difficult issue.
+
+I must work overtime many times to handle the issue and cover the schedule.
+
+For urgent issue, My mentor will support to debug directly, share experience
+If mentor does not have good knowledge about this issue. He will assign to others member who could support me.
+
+About me, I try to think about more ways and try it one by one. Don't just depend on mentor support.
+If I still can not find any way to handle issue. I will raise and get support from mentor or all of team members.
+
+
+That is all for section 3. We will move to the last section
+
+---Read section 4 
+
+That's all for my presentation.
+
+I would like to invite my mentor to give some comment.
+
+---mentor give comment.
+
+Thank for your comment.
+
+How about other members?
+Do you have any question?
+
+Thank you for your question.
+-=---answer.
+
+If you do not have any question, I would like to invite next person. Hien Huynh
+
