@@ -5,3 +5,7 @@ https://discuss.96boards.org/t/i2c-bus-for-camera-ov5640-ov5645/954
 https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/build/kernel.md.html
 
 https://discuss.96boards.org/t/what-i-need-to-do-with-mipi-adater/6343/17
+
+Image in above discuss
+
+https://discuss-96boards-org.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/7/70073c5cb98641174c634e15658b9a58583d4cb1_2_610x499.png
