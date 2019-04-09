@@ -1,0 +1,3 @@
+
+https://discuss.96boards.org/t/problem-enabling-d3-camera-on-db410c/7022/7
+https://discuss.96boards.org/t/i2c-bus-for-camera-ov5640-ov5645/954
