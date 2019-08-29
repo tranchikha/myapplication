@@ -1,0 +1,11 @@
+rpi3.mk:34:    device/brobwind/rpi3/bootanimation.zip:system/media/bootanimation.zip
+sepolicy/bootanim.te:1:allow bootanim self:process execmem;
+sepolicy/bootanim.te:2:allow bootanim ashmem_device:chr_file execute;
+sepolicy/bootanim.te:4:dontaudit bootanim system_data_file:dir read;
+sepolicy/bootanim.te:6:allow bootanim graphics_device:chr_file { read ioctl open };
+sepolicy/bootanim.te:8:typeattribute bootanim system_writes_vendor_properties_violators;
+sepolicy/bootanim.te:9:set_prop(bootanim, qemu_prop)
+sepolicy/rpi3.te:5:#============= bootanim ==============
+sepolicy/rpi3.te:6:allow bootanim gpu_device:dir { open read };
+sepolicy/rpi3.te:7:allow bootanim sysfs_gpu:file { getattr open read };
+sepolicy/audioserver.te:1:allow audioserver bootanim:binder call;
