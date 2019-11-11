@@ -1,0 +1,527 @@
+--------- beginning of main
+10-05 10:03:09.253   173   173 E CarPowerManagerNative: Received unknown bootReason = 0
+10-05 10:03:09.253   173   173 E PowerTestService: ERROR:  Could not read bootReason!!
+10-05 10:03:14.254   173   173 E CarPowerManagerNative: Received unknown bootReason = 0
+10-05 10:03:14.255   173   173 E PowerTestService: ERROR:  Could not read bootReason!!
+--------- beginning of system
+10-05 10:03:19.046   191   231 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+10-05 10:03:19.256   173   173 E CarPowerManagerNative: Received unknown bootReason = 0
+10-05 10:03:19.256   173   173 E PowerTestService: ERROR:  Could not read bootReason!!
+10-05 10:03:24.258   173   173 E CarPowerManagerNative: Received unknown bootReason = 0
+10-05 10:03:24.258   173   173 E PowerTestService: ERROR:  Could not read bootReason!!
+10-05 10:03:29.260   173   173 E CarPowerManagerNative: Received unknown bootReason = 0
+10-05 10:03:29.260   173   173 E PowerTestService: ERROR:  Could not read bootReason!!
+10-05 10:03:34.261   173   173 E CarPowerManagerNative: Received unknown bootReason = 0
+10-05 10:03:34.262   173   173 E PowerTestService: ERROR:  Could not read bootReason!!
+10-05 10:03:34.451   298   613 D BluetoothManagerService: enable(com.android.car.settings):  mBluetooth =null mBinding = false mState = OFF
+10-05 10:03:34.452   298   613 D BluetoothManagerService: enable returning
+10-05 10:03:34.453   298   322 D BluetoothManagerService: MESSAGE_ENABLE(0): mBluetooth = null
+10-05 10:03:34.532   298   317 W ActivityManager: Slow operation: 69ms so far, now at startProcess: returned from zygote!
+10-05 10:03:34.536   298   317 W ActivityManager: Slow operation: 72ms so far, now at startProcess: done updating battery stats
+10-05 10:03:34.537   298   317 W ActivityManager: Slow operation: 74ms so far, now at startProcess: building log message
+10-05 10:03:34.537   298   317 I ActivityManager: Start proc 1299:com.android.bluetooth/1002 for service com.android.bluetooth/.btservice.AdapterService
+10-05 10:03:34.538   298   317 W ActivityManager: Slow operation: 74ms so far, now at startProcess: starting to update pids map
+10-05 10:03:34.538   298   317 W ActivityManager: Slow operation: 75ms so far, now at startProcess: done updating pids map
+10-05 10:03:34.537  1299  1299 I Zygote  : seccomp disabled by setenforce 0
+10-05 10:03:34.688   142   221 E TrafficController: Failed to set the counterSet: Bad file descriptor, fd: -1
+10-05 10:03:34.862  1299  1299 D BluetoothOppFileProvider: Initialized
+10-05 10:03:34.910  1299  1299 V AdapterServiceConfig: Adding A2dpSinkService
+10-05 10:03:34.912  1299  1299 V AdapterServiceConfig: Adding PanService
+10-05 10:03:34.913  1299  1299 V AdapterServiceConfig: Adding GattService
+10-05 10:03:34.913  1299  1299 V AdapterServiceConfig: Adding HeadsetClientService
+10-05 10:03:34.913  1299  1299 V AdapterServiceConfig: Adding AvrcpTargetService
+10-05 10:03:34.913  1299  1299 V AdapterServiceConfig: Adding AvrcpControllerService
+10-05 10:03:34.914  1299  1299 V AdapterServiceConfig: Adding PbapClientService
+10-05 10:03:34.914  1299  1299 V AdapterServiceConfig: Adding MapClientService
+10-05 10:03:34.914  1299  1299 V AdapterServiceConfig: Adding HidDeviceService
+10-05 10:03:34.968  1299  1299 I         : [1005/100334.967535:INFO:com_android_bluetooth_btservice_AdapterService.cpp(630)] hal_util_load_bt_library loaded HAL: btinterface=0xd7785234, handle=0xb2bd793d
+10-05 10:03:34.972  1299  1299 D BluetoothAdapterService: onCreate()
+10-05 10:03:35.007  1299  1299 D AdapterState: make() - Creating AdapterState
+10-05 10:03:35.014  1299  1299 I bt_btif : init
+10-05 10:03:35.014  1299  1315 I AdapterState: OFF : entered 
+10-05 10:03:35.014  1299  1315 D AdapterProperties: Setting state to OFF
+10-05 10:03:35.014  1299  1299 D bt_osi_allocation_tracker: canary initialized
+10-05 10:03:35.016  1299  1316 I bt_osi_thread: run_thread: thread id 1316, thread name stack_manager started
+10-05 10:03:35.016  1299  1316 I bt_stack_manager: event_init_stack is initializing the stack
+10-05 10:03:35.019  1299  1319 I bt_osi_thread: run_thread: thread id 1319, thread name alarm_default_ca started
+10-05 10:03:35.020  1299  1320 I bt_osi_thread: run_thread: thread id 1320, thread name alarm_dispatcher started
+10-05 10:03:35.025  1299  1316 I bt_btif_core: btif_init_bluetooth entered
+10-05 10:03:35.026  1299  1316 I bt_stack_config: init attempt to load stack conf from /etc/bluetooth/bt_stack.conf
+10-05 10:03:35.027  1299  1321 I bt_osi_thread: run_thread: thread id 1321, thread name bt_jni_workqueue started
+10-05 10:03:35.027  1299  1316 I bt_btif_core: btif_init_bluetooth finished
+10-05 10:03:35.027  1299  1321 I bt_btif_core: run_message_loop entered
+10-05 10:03:35.027  1299  1316 I bt_stack_manager: event_init_stack finished
+10-05 10:03:35.028  1299  1299 I bt_osi_wakelock: wakelock_set_os_callouts set to non-native
+10-05 10:03:35.028  1299  1299 I bt_btif : get_profile_interface: id = socket
+10-05 10:03:35.029  1299  1321 E bt_btif_storage: btif_storage_get_adapter_property: Controller not ready! Unable to return Bluetooth Address
+10-05 10:03:35.029  1299  1321 E BluetoothServiceJni: adapter_properties_callback: Status 1 is incorrect
+10-05 10:03:35.034   298   298 D BluetoothManagerService: Bluetooth Adapter name changed to Raspberry Pi 3
+10-05 10:03:35.035   298   298 D BluetoothManagerService: Stored Bluetooth name: Raspberry Pi 3
+10-05 10:03:35.036  1299  1321 D AdapterProperties: Name is: Raspberry Pi 3
+10-05 10:03:35.036  1299  1321 D AdapterProperties: BT Class:5a020c
+10-05 10:03:35.039  1299  1299 I bt_btif : get_profile_interface: id = sdp
+10-05 10:03:35.046  1299  1299 I BluetoothAdapterService: Phone policy disabled
+10-05 10:03:35.053  1299  1299 D BluetoothActiveDeviceManager: start()
+10-05 10:03:35.064  1299  1299 D BluetoothAdapterService: setAdapterService() - trying to set service to com.android.bluetooth.btservice.AdapterService@d384bdf
+10-05 10:03:35.065  1299  1322 D BluetoothActiveDeviceManager: onAudioDevicesAdded
+10-05 10:03:35.065  1299  1322 D BluetoothActiveDeviceManager: Audio device added: Mini for RPI3 type: 2
+10-05 10:03:35.079  1299  1299 D BluetoothAdapterService: onBind()
+10-05 10:03:35.081   298   298 D BluetoothManagerService: BluetoothServiceConnection: com.android.bluetooth.btservice.AdapterService
+10-05 10:03:35.081   298   322 D BluetoothManagerService: MESSAGE_BLUETOOTH_SERVICE_CONNECTED: 1
+10-05 10:03:35.082   298   322 D BluetoothManagerService: Broadcasting onBluetoothServiceUp() to 8 receivers.
+10-05 10:03:35.083   579  1229 D BluetoothAdapter: onBluetoothServiceUp: android.bluetooth.IBluetooth$Stub$Proxy@f0d6594
+10-05 10:03:35.083  1174  1210 D BluetoothAdapter: onBluetoothServiceUp: android.bluetooth.IBluetooth$Stub$Proxy@2f7490c
+10-05 10:03:35.084   446  1285 D BluetoothAdapter: onBluetoothServiceUp: android.bluetooth.IBluetooth$Stub$Proxy@69f748c
+10-05 10:03:35.084  1023  1196 D BluetoothAdapter: onBluetoothServiceUp: android.bluetooth.IBluetooth$Stub$Proxy@d384bdf
+10-05 10:03:35.085   467   494 D BluetoothAdapter: onBluetoothServiceUp: android.bluetooth.IBluetooth$Stub$Proxy@1953a59
+10-05 10:03:35.085   298   322 D BluetoothAdapter: onBluetoothServiceUp: android.bluetooth.IBluetooth$Stub$Proxy@79ed09b
+10-05 10:03:35.085   552   763 D BluetoothAdapter: onBluetoothServiceUp: android.bluetooth.IBluetooth$Stub$Proxy@7c339e4
+10-05 10:03:35.085  1299  1312 D BluetoothAdapter: onBluetoothServiceUp: com.android.bluetooth.btservice.AdapterService$AdapterServiceBinder@fa63c5c
+10-05 10:03:35.088  1299  1313 D BluetoothAdapterService: enable() - Enable called with quiet mode status =  false
+10-05 10:03:35.088  1299  1315 I AdapterState: BLE_TURNING_ON : entered 
+10-05 10:03:35.088  1299  1315 D AdapterProperties: Setting state to BLE_TURNING_ON
+10-05 10:03:35.089  1299  1315 D BluetoothAdapterService: updateAdapterState() - Broadcasting state BLE_TURNING_ON to 1 receivers.
+10-05 10:03:35.089   298   322 D BluetoothManagerService: MESSAGE_BLUETOOTH_STATE_CHANGE: OFF > BLE_TURNING_ON
+10-05 10:03:35.090   298   322 D BluetoothManagerService: Sending BLE State Change: OFF > BLE_TURNING_ON
+10-05 10:03:35.090  1299  1315 D BluetoothAdapterService: bleOnProcessStart()
+10-05 10:03:35.091  1299  1315 I AdapterProperties: init(), maxConnectedAudioDevices, default=5, propertyOverlayed=5, finalValue=5
+10-05 10:03:35.095  1299  1315 D BluetoothAdapterService: bleOnProcessStart() - Make Bond State Machine
+10-05 10:03:35.100  1299  1315 D BluetoothBondStateMachine: make
+10-05 10:03:35.104  1299  1328 I BluetoothBondStateMachine: StableState(): Entering Off State
+10-05 10:03:35.149  1299  1299 I BtGatt.JNI: classInitNative(L875): classInitNative: Success!
+10-05 10:03:35.173  1299  1299 D BtGatt.DebugUtils: handleDebugAction() action=null
+10-05 10:03:35.175  1299  1299 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@d384bdf
+10-05 10:03:35.182  1299  1299 I bt_btif : get_profile_interface: id = gatt
+10-05 10:03:35.186  1299  1299 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@d384bdf
+10-05 10:03:35.224  1299  1299 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@d384bdf
+10-05 10:03:35.227  1299  1299 D BluetoothAdapterService: handleMessage() - Message: 2
+10-05 10:03:35.227  1299  1299 D BluetoothAdapterService: handleMessage() - MESSAGE_PROFILE_SERVICE_REGISTERED
+10-05 10:03:35.228  1299  1299 D BluetoothAdapterService: handleMessage() - Message: 1
+10-05 10:03:35.228  1299  1299 D BluetoothAdapterService: handleMessage() - MESSAGE_PROFILE_SERVICE_STATE_CHANGED
+10-05 10:03:35.229  1299  1299 I bt_btif : enable: start restricted = 0
+10-05 10:03:35.230  1299  1316 I bt_stack_manager: event_start_up_stack is bringing up the stack
+10-05 10:03:35.230  1299  1316 I bt_core_module: module_start_up Starting module "btif_config_module"
+10-05 10:03:35.230  1299  1316 I bt_core_module: module_start_up Started module "btif_config_module"
+10-05 10:03:35.230  1299  1316 I bt_core_module: module_start_up Starting module "btsnoop_module"
+10-05 10:03:35.231  1299  1316 I bt_core_module: module_start_up Started module "btsnoop_module"
+10-05 10:03:35.231  1299  1316 I bt_core_module: module_start_up Starting module "hci_module"
+10-05 10:03:35.231  1299  1316 I bt_hci  : hci_module_start_up
+10-05 10:03:35.231  1299  1332 I bt_osi_thread: run_thread: thread id 1332, thread name hci_thread started
+10-05 10:03:35.232  1299  1316 D bt_hci  : hci_module_start_up starting async portion
+10-05 10:03:35.232  1299  1332 I bt_hci  : hci_initialize
+10-05 10:03:35.236  1299  1332 I bt_hci  : hci_initialize: IBluetoothHci::getService() returned 0xec4b07a0 (remote)
+10-05 10:03:35.237   150   150 I android.hardware.bluetooth@1.0-btrpi3: BluetoothHci::initialize()
+10-05 10:03:35.237   150   150 I android.hardware.bluetooth@1.0-btrpi3: openBtHci
+10-05 10:03:35.238   150   150 I android.hardware.bluetooth@1.0-btrpi3: waitHciDev
+10-05 10:03:35.238   150   150 I android.hardware.bluetooth@1.0-btrpi3: HCI device ready
+10-05 10:03:35.240   150  1334 E         : ThreadRoutine unable to set SCHED_FIFO for pid 150, tid 1334, error Operation not permitted
+10-05 10:03:35.240  1299  1332 I bt_hci  : event_finish_startup
+10-05 10:03:35.240  1299  1316 I bt_core_module: module_start_up Started module "hci_module"
+10-05 10:03:35.241  1299  1335 I bt_osi_thread: run_thread: thread id 1335, thread name bt_workqueue started
+10-05 10:03:35.242  1299  1335 I         : [1005/100335.242216:INFO:btu_task.cc(107)] Bluetooth chip preload is complete
+10-05 10:03:35.243  1299  1335 I         : [1005/100335.243420:INFO:gatt_api.cc(948)] GATT_Register 81818181-8181-8181-8181-818181818181
+10-05 10:03:35.243  1299  1335 I         : [1005/100335.243624:INFO:gatt_api.cc(968)] allocated gatt_if=1
+10-05 10:03:35.243  1299  1335 I         : [1005/100335.243733:INFO:gatt_api.cc(161)] GATTS_AddService
+10-05 10:03:35.243  1299  1335 I         : [1005/100335.243836:INFO:gatt_api.cc(265)] GATTS_AddService: service parsed correctly, now starting
+10-05 10:03:35.244  1299  1335 I         : [1005/100335.244128:INFO:gatt_api.cc(948)] GATT_Register 82828282-8282-8282-8282-828282828282
+10-05 10:03:35.244  1299  1335 I         : [1005/100335.244316:INFO:gatt_api.cc(968)] allocated gatt_if=2
+10-05 10:03:35.244  1299  1335 I         : [1005/100335.244422:INFO:gatt_api.cc(161)] GATTS_AddService
+10-05 10:03:35.244  1299  1335 I         : [1005/100335.244540:INFO:gatt_api.cc(265)] GATTS_AddService: service parsed correctly, now starting
+10-05 10:03:35.245  1299  1335 I bt_bte  : BTE_InitTraceLevels -- TRC_HCI : Level 2
+10-05 10:03:35.245  1299  1335 I bt_bte  : BTE_InitTraceLevels -- TRC_L2CAP : Level 2
+10-05 10:03:35.245  1299  1335 I bt_bte  : BTE_InitTraceLevels -- TRC_RFCOMM : Level 2
+10-05 10:03:35.245  1299  1335 I bt_bte  : BTE_InitTraceLevels -- TRC_AVDT : Level 2
+10-05 10:03:35.245  1299  1335 I bt_bte  : BTE_InitTraceLevels -- TRC_AVRC : Level 2
+10-05 10:03:35.245  1299  1335 I bt_bte  : BTE_InitTraceLevels -- TRC_A2D : Level 2
+10-05 10:03:35.245  1299  1335 I bt_bte  : BTE_InitTraceLevels -- TRC_BNEP : Level 2
+10-05 10:03:35.245  1299  1335 I bt_bte  : BTE_InitTraceLevels -- TRC_BTM : Level 2
+10-05 10:03:35.245  1299  1335 I bt_bte  : BTE_InitTraceLevels -- TRC_HID_HOST : Level 2
+10-05 10:03:35.245  1299  1335 I bt_bte  : BTE_InitTraceLevels -- TRC_PAN : Level 2
+10-05 10:03:35.245  1299  1335 I bt_bte  : BTE_InitTraceLevels -- TRC_SDP : Level 2
+10-05 10:03:35.245  1299  1335 I bt_bte  : BTE_InitTraceLevels -- TRC_SMP : Level 2
+10-05 10:03:35.245  1299  1335 I bt_bte  : BTE_InitTraceLevels -- TRC_HID_DEV : Level 2
+10-05 10:03:35.245  1299  1335 I bt_bte  : BTE_InitTraceLevels -- TRC_BTAPP : Level 2
+10-05 10:03:35.245  1299  1335 I bt_bte  : BTE_InitTraceLevels -- TRC_BTIF : Level 2
+10-05 10:03:35.246  1299  1336 I bt_osi_thread: run_thread: thread id 1336, thread name btu message loop started
+10-05 10:03:35.248  1299  1337 I bt_osi_thread: run_thread: thread id 1337, thread name module_wrapper started
+10-05 10:03:35.248  1299  1337 I bt_core_module: module_start_up Starting module "controller_module"
+10-05 10:03:35.489  1299  1337 I bt_core_module: module_start_up Started module "controller_module"
+10-05 10:03:35.489  1299  1337 W bt_osi_thread: run_thread: thread id 1337, thread name module_wrapper exited
+10-05 10:03:35.490  1299  1335 W bt_btm  : btm_decode_ext_features_page: feature page 1 ignored
+10-05 10:03:35.490  1299  1335 W bt_btm  : btm_decode_ext_features_page: feature page 2 ignored
+10-05 10:03:35.490  1299  1336 I bt_btm_sec: BTM_SecRegister p_cb_info->p_le_callback == 0x0xd74dc77d
+10-05 10:03:35.491  1299  1336 I bt_btm_sec: BTM_SecRegister btm_cb.api.p_le_callback = 0x0xd74dc77d 
+10-05 10:03:35.491  1299  1336 I bt_stack: [INFO:ble_advertiser_hci_interface.cc(737)] Legacy advertising will be in use
+10-05 10:03:35.495  1299  1336 I bt_stack: [INFO:gatt_api.cc(948)] GATT_Register 45e9092d-3254-a813-ac0c-05d75cc0c494
+10-05 10:03:35.495  1299  1336 I bt_stack: [INFO:gatt_api.cc(968)] allocated gatt_if=3
+10-05 10:03:35.506  1299  1321 E bt_btif_storage: btif_storage_get_adapter_property: Controller ready!
+10-05 10:03:35.509  1299  1321 I bt_btif_storage: btif_storage_get_adapter_property service_mask:0x20000000
+10-05 10:03:35.510  1299  1321 D AdapterProperties: Address is:B8:27:EB:D5:C8:73
+10-05 10:03:35.515   298   298 D BluetoothManagerService: Bluetooth Adapter address changed to B8:27:EB:D5:C8:73
+10-05 10:03:35.516   298   298 D BluetoothManagerService: Stored Bluetoothaddress: B8:27:EB:D5:C8:73
+10-05 10:03:35.521   298   298 D BluetoothManagerService: Bluetooth Adapter name changed to Raspberry Pi 3
+10-05 10:03:35.522   298   298 D BluetoothManagerService: Stored Bluetooth name: Raspberry Pi 3
+10-05 10:03:35.522  1299  1321 D AdapterProperties: Name is: Raspberry Pi 3
+10-05 10:03:35.525  1299  1321 D AdapterProperties: Scan Mode:20
+10-05 10:03:35.525  1299  1321 D AdapterProperties: Discoverable Timeout:120
+10-05 10:03:35.526  1299  1321 I bt_btif_core: btif_enable_bluetooth_evt entered: status 0
+10-05 10:03:35.527  1299  1339 I bt_osi_thread: run_thread: thread id 1339, thread name btif_sock started
+10-05 10:03:35.528  1299  1321 D bt_bte_conf: Device ID record 1 : primary
+10-05 10:03:35.528  1299  1321 D bt_bte_conf:   vendorId            = 00e0
+10-05 10:03:35.528  1299  1321 D bt_bte_conf:   vendorIdSource      = 0001
+10-05 10:03:35.528  1299  1321 D bt_bte_conf:   product             = 1200
+10-05 10:03:35.528  1299  1321 D bt_bte_conf:   version             = 1436
+10-05 10:03:35.528  1299  1321 D bt_bte_conf:   clientExecutableURL = 
+10-05 10:03:35.528  1299  1321 D bt_bte_conf:   serviceDescription  = 
+10-05 10:03:35.528  1299  1321 D bt_bte_conf:   documentationURL    = 
+10-05 10:03:35.529  1299  1321 D bt_bte_conf: bte_load_did_conf no section named DID2.
+10-05 10:03:35.529  1299  1321 I bt_btif_core: btif_enable_bluetooth_evt finished
+10-05 10:03:35.529  1299  1316 I bt_stack_manager: event_start_up_stack finished
+10-05 10:03:35.530  1299  1315 I AdapterState: BLE_ON : entered 
+10-05 10:03:35.530  1299  1315 D AdapterProperties: Setting state to BLE_ON
+10-05 10:03:35.531  1299  1315 D BluetoothAdapterService: updateAdapterState() - Broadcasting state BLE_ON to 1 receivers.
+10-05 10:03:35.532   298   322 D BluetoothManagerService: MESSAGE_BLUETOOTH_STATE_CHANGE: BLE_TURNING_ON > BLE_ON
+10-05 10:03:35.532   298   322 D BluetoothManagerService: Bluetooth is in LE only mode
+10-05 10:03:35.532   298   322 D BluetoothManagerService: Binding Bluetooth GATT service
+10-05 10:03:35.535   298   322 D BluetoothManagerService: Sending BLE State Change: BLE_TURNING_ON > BLE_ON
+10-05 10:03:35.538   298   298 D BluetoothManagerService: BluetoothServiceConnection: com.android.bluetooth.gatt.GattService
+10-05 10:03:35.539   298   322 D BluetoothManagerService: MESSAGE_BLUETOOTH_SERVICE_CONNECTED: 2
+10-05 10:03:35.539   298   322 D BluetoothManagerService: continueFromBleOnState()
+10-05 10:03:35.541   298   322 D BluetoothManagerService: isBleAppPresent() count: 0
+10-05 10:03:35.544   298   322 D BluetoothManagerService: Persisting Bluetooth Setting: 1
+10-05 10:03:35.544  1299  1315 I AdapterState: TURNING_ON : entered 
+10-05 10:03:35.544  1299  1315 D AdapterProperties: Setting state to TURNING_ON
+10-05 10:03:35.544  1299  1315 D BluetoothAdapterService: updateAdapterState() - Broadcasting state TURNING_ON to 1 receivers.
+10-05 10:03:35.546  1299  1315 D BluetoothAdapterService: startCoreServices()
+10-05 10:03:35.546   298   322 D BluetoothManagerService: MESSAGE_BLUETOOTH_STATE_CHANGE: BLE_ON > TURNING_ON
+10-05 10:03:35.546   298   322 D BluetoothManagerService: Sending BLE State Change: BLE_ON > TURNING_ON
+10-05 10:03:35.556   298   298 V SettingsProvider: Notifying for 0: content://settings/global/bluetooth_on
+10-05 10:03:35.565  1299  1299 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@d384bdf
+10-05 10:03:35.580  1299  1299 D A2dpSinkService: start()
+10-05 10:03:35.607  1299  1299 I BluetoothA2dpSinkServiceJni: classInitNative: succeeds
+10-05 10:03:35.608  1299  1299 D A2dpSinkStateMachine: make
+10-05 10:03:35.610  1299  1299 I bt_btif : get_profile_interface: id = a2dp_sink
+10-05 10:03:35.610  1299  1299 I btif_av : bt_status_t BtifAvSink::Init(btav_sink_callbacks_t *)
+10-05 10:03:35.610  1299  1299 D a2dp_codec: init
+10-05 10:03:35.610  1299  1299 D a2dp_codec: createCodec: codec SBC
+10-05 10:03:35.611  1299  1299 D a2dp_codec: createCodec: codec AAC
+10-05 10:03:35.611  1299  1299 D a2dp_codec: createCodec: codec aptX
+10-05 10:03:35.616  1299  1299 E a2dp_vendor_aptx_encoder: A2DP_VendorLoadEncoderAptx: cannot open aptX encoder library libaptX_encoder.so: dlopen failed: library "libaptX_encoder.so" not found
+10-05 10:03:35.617  1299  1299 E a2dp_vendor_aptx: init: cannot load the encoder
+10-05 10:03:35.617  1299  1299 D a2dp_codec: createCodec: codec aptX-HD
+10-05 10:03:35.619  1299  1299 E a2dp_vendor_aptx_hd_encoder: A2DP_VendorLoadEncoderAptxHd: cannot open aptX-HD encoder library libaptXHD_encoder.so: dlopen failed: library "libaptXHD_encoder.so" not found
+10-05 10:03:35.619  1299  1299 E a2dp_vendor_aptx_hd: init: cannot load the encoder
+10-05 10:03:35.619  1299  1299 D a2dp_codec: createCodec: codec LDAC
+10-05 10:03:35.632  1299  1299 D a2dp_codec: createCodec: codec SBC SINK
+10-05 10:03:35.633  1299  1299 D a2dp_codec: createCodec: codec AAC SINK
+10-05 10:03:35.634  1299  1299 I a2dp_codec: init: initialized Source codec LDAC
+10-05 10:03:35.634  1299  1299 I a2dp_codec: init: initialized Source codec AAC
+10-05 10:03:35.634  1299  1299 I a2dp_codec: init: initialized Source codec SBC
+10-05 10:03:35.634  1299  1299 I a2dp_codec: init: initialized Sink codec AAC SINK
+10-05 10:03:35.634  1299  1299 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+10-05 10:03:35.634  1299  1299 D a2dp_codec: init
+10-05 10:03:35.634  1299  1299 D a2dp_codec: createCodec: codec SBC
+10-05 10:03:35.634  1299  1299 D a2dp_codec: createCodec: codec AAC
+10-05 10:03:35.636  1299  1299 D a2dp_codec: createCodec: codec aptX
+10-05 10:03:35.641  1299  1299 E a2dp_vendor_aptx_encoder: A2DP_VendorLoadEncoderAptx: cannot open aptX encoder library libaptX_encoder.so: dlopen failed: library "libaptX_encoder.so" not found
+10-05 10:03:35.642  1299  1299 E a2dp_vendor_aptx: init: cannot load the encoder
+10-05 10:03:35.642  1299  1299 D a2dp_codec: createCodec: codec aptX-HD
+10-05 10:03:35.646  1299  1299 E a2dp_vendor_aptx_hd_encoder: A2DP_VendorLoadEncoderAptxHd: cannot open aptX-HD encoder library libaptXHD_encoder.so: dlopen failed: library "libaptXHD_encoder.so" not found
+10-05 10:03:35.646  1299  1299 E a2dp_vendor_aptx_hd: init: cannot load the encoder
+10-05 10:03:35.646  1299  1299 D a2dp_codec: createCodec: codec LDAC
+10-05 10:03:35.646  1299  1299 D a2dp_codec: createCodec: codec SBC SINK
+10-05 10:03:35.649  1299  1299 D a2dp_codec: createCodec: codec AAC SINK
+10-05 10:03:35.649  1299  1299 I a2dp_codec: init: initialized Source codec LDAC
+10-05 10:03:35.649  1299  1299 I a2dp_codec: init: initialized Source codec AAC
+10-05 10:03:35.656  1299  1299 I a2dp_codec: init: initialized Source codec SBC
+10-05 10:03:35.656  1299  1299 I a2dp_codec: init: initialized Sink codec AAC SINK
+10-05 10:03:35.656  1299  1299 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+10-05 10:03:35.657  1299  1299 D a2dp_codec: init
+10-05 10:03:35.657  1299  1299 D a2dp_codec: createCodec: codec SBC
+10-05 10:03:35.657  1299  1299 D a2dp_codec: createCodec: codec AAC
+10-05 10:03:35.657  1299  1299 D a2dp_codec: createCodec: codec aptX
+10-05 10:03:35.661  1299  1299 E a2dp_vendor_aptx_encoder: A2DP_VendorLoadEncoderAptx: cannot open aptX encoder library libaptX_encoder.so: dlopen failed: library "libaptX_encoder.so" not found
+10-05 10:03:35.661  1299  1299 E a2dp_vendor_aptx: init: cannot load the encoder
+10-05 10:03:35.661  1299  1299 D a2dp_codec: createCodec: codec aptX-HD
+10-05 10:03:35.666  1299  1299 E a2dp_vendor_aptx_hd_encoder: A2DP_VendorLoadEncoderAptxHd: cannot open aptX-HD encoder library libaptXHD_encoder.so: dlopen failed: library "libaptXHD_encoder.so" not found
+10-05 10:03:35.673  1299  1299 E a2dp_vendor_aptx_hd: init: cannot load the encoder
+10-05 10:03:35.673  1299  1299 D a2dp_codec: createCodec: codec LDAC
+10-05 10:03:35.673  1299  1299 D a2dp_codec: createCodec: codec SBC SINK
+10-05 10:03:35.673  1299  1299 D a2dp_codec: createCodec: codec AAC SINK
+10-05 10:03:35.673  1299  1299 I a2dp_codec: init: initialized Source codec LDAC
+10-05 10:03:35.673  1299  1299 I a2dp_codec: init: initialized Source codec AAC
+10-05 10:03:35.673  1299  1299 I a2dp_codec: init: initialized Source codec SBC
+10-05 10:03:35.674  1299  1299 I a2dp_codec: init: initialized Sink codec AAC SINK
+10-05 10:03:35.674  1299  1299 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+10-05 10:03:35.674  1299  1299 D a2dp_codec: init
+10-05 10:03:35.674  1299  1299 D a2dp_codec: createCodec: codec SBC
+10-05 10:03:35.674  1299  1299 D a2dp_codec: createCodec: codec AAC
+10-05 10:03:35.674  1299  1299 D a2dp_codec: createCodec: codec aptX
+10-05 10:03:35.677  1299  1299 E a2dp_vendor_aptx_encoder: A2DP_VendorLoadEncoderAptx: cannot open aptX encoder library libaptX_encoder.so: dlopen failed: library "libaptX_encoder.so" not found
+10-05 10:03:35.677  1299  1299 E a2dp_vendor_aptx: init: cannot load the encoder
+10-05 10:03:35.678  1299  1299 D a2dp_codec: createCodec: codec aptX-HD
+10-05 10:03:35.681  1299  1299 E a2dp_vendor_aptx_hd_encoder: A2DP_VendorLoadEncoderAptxHd: cannot open aptX-HD encoder library libaptXHD_encoder.so: dlopen failed: library "libaptXHD_encoder.so" not found
+10-05 10:03:35.681  1299  1299 E a2dp_vendor_aptx_hd: init: cannot load the encoder
+10-05 10:03:35.681  1299  1299 D a2dp_codec: createCodec: codec LDAC
+10-05 10:03:35.681  1299  1299 D a2dp_codec: createCodec: codec SBC SINK
+10-05 10:03:35.682  1299  1299 D a2dp_codec: createCodec: codec AAC SINK
+10-05 10:03:35.682  1299  1299 I a2dp_codec: init: initialized Source codec LDAC
+10-05 10:03:35.682  1299  1299 I a2dp_codec: init: initialized Source codec AAC
+10-05 10:03:35.682  1299  1299 I a2dp_codec: init: initialized Source codec SBC
+10-05 10:03:35.682  1299  1299 I a2dp_codec: init: initialized Sink codec AAC SINK
+10-05 10:03:35.682  1299  1299 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+10-05 10:03:35.682  1299  1299 D a2dp_codec: init
+10-05 10:03:35.682  1299  1299 D a2dp_codec: createCodec: codec SBC
+10-05 10:03:35.682  1299  1299 D a2dp_codec: createCodec: codec AAC
+10-05 10:03:35.682  1299  1299 D a2dp_codec: createCodec: codec aptX
+10-05 10:03:35.687  1299  1299 E a2dp_vendor_aptx_encoder: A2DP_VendorLoadEncoderAptx: cannot open aptX encoder library libaptX_encoder.so: dlopen failed: library "libaptX_encoder.so" not found
+10-05 10:03:35.688  1299  1299 E a2dp_vendor_aptx: init: cannot load the encoder
+10-05 10:03:35.688  1299  1299 D a2dp_codec: createCodec: codec aptX-HD
+10-05 10:03:35.692  1299  1299 E a2dp_vendor_aptx_hd_encoder: A2DP_VendorLoadEncoderAptxHd: cannot open aptX-HD encoder library libaptXHD_encoder.so: dlopen failed: library "libaptXHD_encoder.so" not found
+10-05 10:03:35.692  1299  1299 E a2dp_vendor_aptx_hd: init: cannot load the encoder
+10-05 10:03:35.692  1299  1299 D a2dp_codec: createCodec: codec LDAC
+10-05 10:03:35.692  1299  1299 D a2dp_codec: createCodec: codec SBC SINK
+10-05 10:03:35.692  1299  1299 D a2dp_codec: createCodec: codec AAC SINK
+10-05 10:03:35.692  1299  1299 I a2dp_codec: init: initialized Source codec LDAC
+10-05 10:03:35.692  1299  1299 I a2dp_codec: init: initialized Source codec AAC
+10-05 10:03:35.692  1299  1299 I a2dp_codec: init: initialized Source codec SBC
+10-05 10:03:35.692  1299  1299 I a2dp_codec: init: initialized Sink codec AAC SINK
+10-05 10:03:35.692  1299  1299 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+10-05 10:03:35.692  1299  1299 D a2dp_codec: init
+10-05 10:03:35.693  1299  1299 D a2dp_codec: createCodec: codec SBC
+10-05 10:03:35.693  1299  1299 D a2dp_codec: createCodec: codec AAC
+10-05 10:03:35.693  1299  1299 D a2dp_codec: createCodec: codec aptX
+10-05 10:03:35.695  1299  1299 E a2dp_vendor_aptx_encoder: A2DP_VendorLoadEncoderAptx: cannot open aptX encoder library libaptX_encoder.so: dlopen failed: library "libaptX_encoder.so" not found
+10-05 10:03:35.695  1299  1299 E a2dp_vendor_aptx: init: cannot load the encoder
+10-05 10:03:35.695  1299  1299 D a2dp_codec: createCodec: codec aptX-HD
+10-05 10:03:35.698  1299  1299 E a2dp_vendor_aptx_hd_encoder: A2DP_VendorLoadEncoderAptxHd: cannot open aptX-HD encoder library libaptXHD_encoder.so: dlopen failed: library "libaptXHD_encoder.so" not found
+10-05 10:03:35.698  1299  1299 E a2dp_vendor_aptx_hd: init: cannot load the encoder
+10-05 10:03:35.699  1299  1299 D a2dp_codec: createCodec: codec LDAC
+10-05 10:03:35.699  1299  1299 D a2dp_codec: createCodec: codec SBC SINK
+10-05 10:03:35.699  1299  1299 D a2dp_codec: createCodec: codec AAC SINK
+10-05 10:03:35.699  1299  1299 I a2dp_codec: init: initialized Source codec LDAC
+10-05 10:03:35.699  1299  1299 I a2dp_codec: init: initialized Source codec AAC
+10-05 10:03:35.699  1299  1299 I a2dp_codec: init: initialized Source codec SBC
+10-05 10:03:35.699  1299  1299 I a2dp_codec: init: initialized Sink codec AAC SINK
+10-05 10:03:35.699  1299  1299 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+10-05 10:03:35.699  1299  1299 I bt_btif_a2dp_sink: btif_a2dp_sink_init
+10-05 10:03:35.706  1299  1342 I bt_osi_thread: run_thread: thread id 1342, thread name btif_a2dp_sink_w started
+10-05 10:03:35.708  1299  1336 I bt_bta_av: bta_av_api_register: AVRCP version used for sdp: "avrcp14"
+10-05 10:03:35.708  1299  1321 I bt_btif_storage: btif_storage_get_adapter_property service_mask:0x20040000
+10-05 10:03:35.708  1299  1336 I bt_bta_av: bta_av_api_register: AVRCP version used for sdp: "avrcp14"
+10-05 10:03:35.709  1299  1336 I chatty  : uid=1002(bluetooth) btu message loo identical 3 lines
+10-05 10:03:35.709  1299  1336 I bt_bta_av: bta_av_api_register: AVRCP version used for sdp: "avrcp14"
+10-05 10:03:35.710  1299  1342 I bt_btif_a2dp_sink: btif_a2dp_sink_init_delayed
+10-05 10:03:35.728  1299  1341 D A2dpSinkStateMachine: Enter Disconnected: -2
+10-05 10:03:35.728  1299  1299 D A2dpSinkService: setA2dpSinkService(): set to: com.android.bluetooth.a2dpsink.A2dpSinkService@7b45edb
+10-05 10:03:35.745  1299  1299 I BluetoothPanServiceJni: classInitNative(L111): succeeds
+10-05 10:03:35.749  1299  1299 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@d384bdf
+10-05 10:03:35.758  1299  1299 D BluetoothPanServiceJni: initializeNative(L116): pan
+10-05 10:03:35.758  1299  1299 I bt_btif : get_profile_interface: id = pan
+10-05 10:03:35.759  1299  1321 D BluetoothPanServiceJni: control_state_callback(L63): state:0, local_role:3, ifname:bt-pan
+10-05 10:03:35.764  1299  1299 D BluetoothAdapterService: handleMessage() - Message: 2
+10-05 10:03:35.765  1299  1299 D BluetoothAdapterService: handleMessage() - MESSAGE_PROFILE_SERVICE_REGISTERED
+10-05 10:03:35.783  1299  1299 I BluetoothHeadsetClientServiceJni: classInitNative succeeds
+10-05 10:03:35.788  1299  1299 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@d384bdf
+10-05 10:03:35.796  1299  1299 D BluetoothHeadsetClientServiceJni: initializeNative: HfpClient
+10-05 10:03:35.796  1299  1299 I bt_btif : get_profile_interface: id = handsfree_client
+10-05 10:03:35.798  1299  1321 I bt_stack: [INFO:port_api.cc(230)] RFCOMM_CreateConnection: bd_addr=ff:ff:ff:ff:ff:ff, scn=2, is_server=1, mtu=256, uuid=0x111e, dlci=4, signal_state=0x0b, p_port=0xd786dbcc
+10-05 10:03:35.798  1299  1321 I bt_btif_storage: btif_storage_get_adapter_property service_mask:0x21040000
+10-05 10:03:35.801   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:35.813   148   287 I chatty  : uid=1041(audioserver) HwBinder:148_3 identical 1 line
+10-05 10:03:35.825   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:35.833  1299  1322 D BluetoothActiveDeviceManager: handleMessage(MESSAGE_ADAPTER_ACTION_STATE_CHANGED): newState=11
+10-05 10:03:35.836   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:35.848   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:35.848  1299  1299 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@d384bdf
+10-05 10:03:35.857  1299  1299 I NewAvrcpTargetService: User unlocked, initializing the service
+10-05 10:03:35.858  1299  1299 W NewAvrcpTargetService: Skipping initialization of the new AVRCP Target Player List
+10-05 10:03:35.859  1299  1299 I NewAvrcpTargetService: Starting the AVRCP Target Service
+10-05 10:03:35.859   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:35.864  1299  1299 W NewAvrcpTargetService: Skipping initialization of the new AVRCP Target Service
+10-05 10:03:35.870   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:35.881   148   287 I chatty  : uid=1041(audioserver) HwBinder:148_3 identical 1 line
+10-05 10:03:35.892   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:35.901  1299  1299 I BluetoothAvrcpControllerJni: classInitNative: succeeds
+10-05 10:03:35.901  1299  1299 I bt_btif : get_profile_interface: id = avrcp_ctrl
+10-05 10:03:35.904   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:35.905  1299  1299 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@d384bdf
+10-05 10:03:35.915   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:35.937   148   287 I chatty  : uid=1041(audioserver) HwBinder:148_3 identical 2 lines
+10-05 10:03:35.948   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:35.952  1299  1299 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@d384bdf
+10-05 10:03:35.959   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:35.962  1299  1299 W PbapClientService: Found 0 unclean accounts
+10-05 10:03:35.970   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:35.976   142   221 E TrafficController: Failed to set the counterSet: Bad file descriptor, fd: -1
+10-05 10:03:35.981   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.014   148   287 I chatty  : uid=1041(audioserver) HwBinder:148_3 identical 3 lines
+10-05 10:03:36.026   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.032  1299  1299 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@d384bdf
+10-05 10:03:36.037   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.037  1299  1299 E MapClientService: start()
+10-05 10:03:36.044  1299  1299 D ObexServerSockets: create(rfcomm = -2, l2capPsm = -2)
+10-05 10:03:36.046  1299  1299 W BluetoothAdapter: getBluetoothService() called with no BluetoothManagerCallback
+10-05 10:03:36.048   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.049  1299  1336 I bt_stack: [INFO:port_api.cc(230)] RFCOMM_CreateConnection: bd_addr=ff:ff:ff:ff:ff:ff, scn=3, is_server=1, mtu=990, uuid=0x0037, dlci=6, signal_state=0x0b, p_port=0xd786dc54
+10-05 10:03:36.051  1299  1299 W BluetoothAdapter: getBluetoothService() called with no BluetoothManagerCallback
+10-05 10:03:36.059   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.060  1299  1299 D BluetoothAdapter: listenUsingL2capOn: set assigned channel to 4097
+10-05 10:03:36.061  1299  1299 D ObexServerSockets: Succeed to create listening sockets 
+10-05 10:03:36.061  1299  1299 D ObexServerSockets0: startAccept()
+10-05 10:03:36.065  1299  1346 D ObexServerSockets0: Accepting socket connection...
+10-05 10:03:36.065  1299  1299 D BluetoothSdpJni: sdpCreateMapMnsRecordNative
+10-05 10:03:36.065  1299  1299 D BluetoothSdpJni: SDP Create record success - handle: 0
+10-05 10:03:36.065  1299  1347 D ObexServerSockets0: Accepting socket connection...
+10-05 10:03:36.070   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.081   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.083  1299  1299 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@d384bdf
+10-05 10:03:36.092  1299  1299 V BluetoothHidDeviceServiceJni: classInitNative: done
+10-05 10:03:36.092  1299  1299 V BluetoothHidDeviceServiceJni: initNative enter
+10-05 10:03:36.092   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.092  1299  1299 I bt_btif : get_profile_interface: id = hiddev
+10-05 10:03:36.092  1299  1299 V BluetoothHidDeviceServiceJni: initNative done
+10-05 10:03:36.092  1299  1321 I bt_btif_storage: btif_storage_get_adapter_property service_mask:0x61040000
+10-05 10:03:36.096  1299  1299 D BluetoothAdapterService: handleMessage() - Message: 1
+10-05 10:03:36.096  1299  1299 D BluetoothAdapterService: handleMessage() - MESSAGE_PROFILE_SERVICE_STATE_CHANGED
+10-05 10:03:36.097  1299  1299 D BluetoothAdapterService: handleMessage() - Message: 2
+10-05 10:03:36.097  1299  1299 D BluetoothAdapterService: handleMessage() - MESSAGE_PROFILE_SERVICE_REGISTERED
+10-05 10:03:36.097  1299  1299 D BluetoothAdapterService: handleMessage() - Message: 1
+10-05 10:03:36.097  1299  1299 D BluetoothAdapterService: handleMessage() - MESSAGE_PROFILE_SERVICE_STATE_CHANGED
+10-05 10:03:36.097  1299  1299 D BluetoothAdapterService: handleMessage() - Message: 2
+10-05 10:03:36.097  1299  1299 D BluetoothAdapterService: handleMessage() - MESSAGE_PROFILE_SERVICE_REGISTERED
+10-05 10:03:36.103   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.107  1299  1299 D HfpClientConnService: onCreate
+10-05 10:03:36.114   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.121  1299  1299 D HfpClientConnService: onStartCommand Intent { cmp=com.android.bluetooth/.hfpclient.connserv.HfpClientConnectionService }
+10-05 10:03:36.125  1299  1299 D BluetoothAdapterService: handleMessage() - Message: 1
+10-05 10:03:36.125   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.126  1299  1299 D BluetoothAdapterService: handleMessage() - MESSAGE_PROFILE_SERVICE_STATE_CHANGED
+10-05 10:03:36.126  1299  1299 D BluetoothAdapterService: handleMessage() - Message: 2
+10-05 10:03:36.126  1299  1299 D BluetoothAdapterService: handleMessage() - MESSAGE_PROFILE_SERVICE_REGISTERED
+10-05 10:03:36.126  1299  1299 D BluetoothAdapterService: handleMessage() - Message: 1
+10-05 10:03:36.126  1299  1299 D BluetoothAdapterService: handleMessage() - MESSAGE_PROFILE_SERVICE_STATE_CHANGED
+10-05 10:03:36.126  1299  1299 D BluetoothAdapterService: handleMessage() - Message: 2
+10-05 10:03:36.126  1299  1299 D BluetoothAdapterService: handleMessage() - MESSAGE_PROFILE_SERVICE_REGISTERED
+10-05 10:03:36.127  1299  1299 D BluetoothAdapterService: handleMessage() - Message: 1
+10-05 10:03:36.127  1299  1299 D BluetoothAdapterService: handleMessage() - MESSAGE_PROFILE_SERVICE_STATE_CHANGED
+10-05 10:03:36.127  1299  1299 D BluetoothAdapterService: handleMessage() - Message: 2
+10-05 10:03:36.127  1299  1299 D BluetoothAdapterService: handleMessage() - MESSAGE_PROFILE_SERVICE_REGISTERED
+10-05 10:03:36.135  1299  1299 D BluetoothAdapterService: handleMessage() - Message: 1
+10-05 10:03:36.135  1299  1299 D BluetoothAdapterService: handleMessage() - MESSAGE_PROFILE_SERVICE_STATE_CHANGED
+10-05 10:03:36.136  1299  1299 D BluetoothAdapterService: handleMessage() - Message: 2
+10-05 10:03:36.136  1299  1299 D BluetoothAdapterService: handleMessage() - MESSAGE_PROFILE_SERVICE_REGISTERED
+10-05 10:03:36.136  1299  1299 D BluetoothAdapterService: handleMessage() - Message: 1
+10-05 10:03:36.136  1299  1299 D BluetoothAdapterService: handleMessage() - MESSAGE_PROFILE_SERVICE_STATE_CHANGED
+10-05 10:03:36.136  1299  1299 D BluetoothAdapterService: handleMessage() - Message: 2
+10-05 10:03:36.136  1299  1299 D BluetoothAdapterService: handleMessage() - MESSAGE_PROFILE_SERVICE_REGISTERED
+10-05 10:03:36.136  1299  1299 D BluetoothAdapterService: handleMessage() - Message: 1
+10-05 10:03:36.136  1299  1299 D BluetoothAdapterService: handleMessage() - MESSAGE_PROFILE_SERVICE_STATE_CHANGED
+10-05 10:03:36.137  1299  1299 D AdapterProperties: onBluetoothReady, state=TURNING_ON, ScanMode=20
+10-05 10:03:36.137   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.137  1299  1299 D BluetoothAdapterService: updateUuids() - Updating UUIDs for bonded devices
+10-05 10:03:36.138   142   221 E TrafficController: Failed to delete the counterSet: Bad file descriptor
+10-05 10:03:36.142  1299  1315 I AdapterState: ON : entered 
+10-05 10:03:36.143  1299  1321 D AdapterProperties: Scan Mode:21
+10-05 10:03:36.143  1299  1315 D AdapterProperties: Setting state to ON
+10-05 10:03:36.143  1299  1321 D AdapterProperties: Discoverable Timeout:120
+10-05 10:03:36.143  1299  1315 D BluetoothAdapterService: updateAdapterState() - Broadcasting state ON to 1 receivers.
+10-05 10:03:36.145   298   322 D BluetoothManagerService: MESSAGE_BLUETOOTH_STATE_CHANGE: TURNING_ON > ON
+10-05 10:03:36.145  1299  1299 D BluetoothHeadsetClient: Proxy object connected
+10-05 10:03:36.145   298   322 D BluetoothManagerService: Broadcasting onBluetoothStateChange(true) to 30 receivers.
+10-05 10:03:36.145  1299  1299 D HfpClientConnService: onServiceConnected
+10-05 10:03:36.145   467   766 D BluetoothHeadsetClient: onBluetoothStateChange: up=true
+10-05 10:03:36.146   446  1285 D BluetoothHeadsetClient: onBluetoothStateChange: up=true
+10-05 10:03:36.148   467   494 D BluetoothA2dpSink: onBluetoothStateChange: up=true
+10-05 10:03:36.149   298   322 D BluetoothHeadset: onBluetoothStateChange: up=true
+10-05 10:03:36.149   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.149   298   322 D BluetoothManagerService: Creating new ProfileServiceConnections object for profile: 1
+10-05 10:03:36.150   298   322 E BluetoothManagerService: Fail to bind to: Intent { act=android.bluetooth.IBluetoothHeadset }
+10-05 10:03:36.150   298   322 W BluetoothManagerService: Unable to bind with intent: Intent { act=android.bluetooth.IBluetoothHeadset }
+10-05 10:03:36.151   446  1201 D BluetoothA2dpSink: onBluetoothStateChange: up=true
+10-05 10:03:36.152   446   478 D BluetoothPan: onBluetoothStateChange on: true
+10-05 10:03:36.156   298   322 D BluetoothA2dp: onBluetoothStateChange: up=true
+10-05 10:03:36.157   467   495 D BluetoothHeadsetClient: onBluetoothStateChange: up=true
+10-05 10:03:36.157  1174  1187 D BluetoothHidDevice: onBluetoothStateChange: up=true
+10-05 10:03:36.157  1174  1187 D BluetoothHidDevice: Binding HID Device service...
+10-05 10:03:36.160   467   467 D BluetoothHeadsetClient: Proxy object connected
+10-05 10:03:36.160   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.170   298   322 E BluetoothA2dp: Could not bind to Bluetooth A2DP Service with Intent { act=android.bluetooth.IBluetoothA2dp }
+10-05 10:03:36.171   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.173  1174  1208 E BluetoothPbap: Could not bind to Bluetooth Pbap Service with Intent { act=android.bluetooth.IBluetoothPbap }
+10-05 10:03:36.175   298   322 E BluetoothHearingAid: Could not bind to Bluetooth Hearing Aid Service with Intent { act=android.bluetooth.IBluetoothHearingAid }
+10-05 10:03:36.176   552   763 D BluetoothHeadset: onBluetoothStateChange: up=true
+10-05 10:03:36.177  1299  1313 D BluetoothHeadsetClient: onBluetoothStateChange: up=true
+10-05 10:03:36.177   298   612 D BluetoothManagerService: Creating new ProfileServiceConnections object for profile: 1
+10-05 10:03:36.178   298   612 E BluetoothManagerService: Fail to bind to: Intent { act=android.bluetooth.IBluetoothHeadset }
+10-05 10:03:36.178  1174  1206 D BluetoothHeadsetClient: onBluetoothStateChange: up=true
+10-05 10:03:36.179   298   612 W BluetoothManagerService: Unable to bind with intent: Intent { act=android.bluetooth.IBluetoothHeadset }
+10-05 10:03:36.180   298   322 D BluetoothHeadset: onBluetoothStateChange: up=true
+10-05 10:03:36.180   298   322 D BluetoothManagerService: Creating new ProfileServiceConnections object for profile: 1
+10-05 10:03:36.181   467   494 D BluetoothHidHost: onBluetoothStateChange: up=true
+10-05 10:03:36.182   467  1204 D BluetoothPan: onBluetoothStateChange on: true
+10-05 10:03:36.182   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.186   298   322 E BluetoothManagerService: Fail to bind to: Intent { act=android.bluetooth.IBluetoothHeadset }
+10-05 10:03:36.186   298   322 W BluetoothManagerService: Unable to bind with intent: Intent { act=android.bluetooth.IBluetoothHeadset }
+10-05 10:03:36.186   298   322 D BluetoothHeadset: onBluetoothStateChange: up=true
+10-05 10:03:36.186   298   322 D BluetoothManagerService: Creating new ProfileServiceConnections object for profile: 1
+10-05 10:03:36.187   467   494 E BluetoothHidHost: Could not bind to Bluetooth HID Service with Intent { act=android.bluetooth.IBluetoothHidHost }
+10-05 10:03:36.187   298   322 E BluetoothManagerService: Fail to bind to: Intent { act=android.bluetooth.IBluetoothHeadset }
+10-05 10:03:36.188   298   322 W BluetoothManagerService: Unable to bind with intent: Intent { act=android.bluetooth.IBluetoothHeadset }
+10-05 10:03:36.189   467   766 E BluetoothPbap: Could not bind to Bluetooth Pbap Service with Intent { act=android.bluetooth.IBluetoothPbap }
+10-05 10:03:36.189  1174  1186 D BluetoothA2dpSink: onBluetoothStateChange: up=true
+10-05 10:03:36.189   467   494 D BluetoothHidDevice: onBluetoothStateChange: up=true
+10-05 10:03:36.189   467   494 D BluetoothHidDevice: Binding HID Device service...
+10-05 10:03:36.190  1174  1194 D BluetoothHidHost: onBluetoothStateChange: up=true
+10-05 10:03:36.190  1174  1210 D BluetoothPan: onBluetoothStateChange on: true
+10-05 10:03:36.190  1174  1187 D BluetoothHidDevice: Bound to HID Device Service
+10-05 10:03:36.191   298   322 D BluetoothManagerService: Sending BLE State Change: TURNING_ON > ON
+10-05 10:03:36.192  1174  1194 E BluetoothHidHost: Could not bind to Bluetooth HID Service with Intent { act=android.bluetooth.IBluetoothHidHost }
+10-05 10:03:36.194   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.197   446   446 D BluetoothHeadsetClient: Proxy object connected
+10-05 10:03:36.197   446   446 D CarBluetoothUsrSvc: OnServiceConnected profile: 16
+10-05 10:03:36.198  1299  1312 D MapClientService: getDevicesMatchingConnectionStates[2]
+10-05 10:03:36.200  1299  1312 D MapClientService: []
+10-05 10:03:36.201  1299  1313 D MapClientService: getDevicesMatchingConnectionStates[2]
+10-05 10:03:36.204  1174  1174 D BluetoothHeadsetClient: Proxy object connected
+10-05 10:03:36.205   467   494 D BluetoothHidDevice: Bound to HID Device Service
+10-05 10:03:36.205  1299  1313 D MapClientService: []
+10-05 10:03:36.206   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.209   446   446 D CarBluetoothUsrSvc: OnServiceConnected profile: 18
+10-05 10:03:36.213   467   467 D BluetoothHeadsetClient: Proxy object connected
+10-05 10:03:36.217   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.218   446   446 D BluetoothA2dpSink: Proxy object connected
+10-05 10:03:36.218   446   446 D CarBluetoothUsrSvc: OnServiceConnected profile: 11
+10-05 10:03:36.220  1174  1174 D BluetoothA2dpSink: Proxy object connected
+10-05 10:03:36.220  1174  1174 D A2dpSinkProfile: Bluetooth service connected
+10-05 10:03:36.218   467   467 D BluetoothA2dpSink: Proxy object connected
+10-05 10:03:36.221   467   467 D A2dpSinkProfile: Bluetooth service connected
+10-05 10:03:36.223   446   446 D BluetoothPan: BluetoothPAN Proxy object connected
+10-05 10:03:36.223   446   446 D CarBluetoothUsrSvc: OnServiceConnected profile: 5
+10-05 10:03:36.227  1174  1174 D BluetoothPan: BluetoothPAN Proxy object connected
+10-05 10:03:36.228  1174  1174 D PanProfile: Bluetooth service connected
+10-05 10:03:36.228   467   467 D BluetoothPan: BluetoothPAN Proxy object connected
+10-05 10:03:36.228   467   467 D PanProfile: Bluetooth service connected
+10-05 10:03:36.231   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.232   298   298 I Telecom : BluetoothPhoneService: queryPhoneState: BPSI.qPS@ABM
+10-05 10:03:36.236  1174  1174 W LocalBluetoothProfileManager: Warning: MAP Client profile was previously added but the UUID is now missing.
+10-05 10:03:36.239   298  1212 W ActivityManager: Receiver with filter android.content.IntentFilter@80c462b already registered for pid 1174, callerPackage is com.android.car.settings
+10-05 10:03:36.239   446   446 D CarBluetoothUsrSvc: OnServiceConnected profile: 17
+10-05 10:03:36.242  1299  1322 D BluetoothActiveDeviceManager: handleMessage(MESSAGE_ADAPTER_ACTION_STATE_CHANGED): newState=12
+10-05 10:03:36.243   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.245   467   748 W LocalBluetoothProfileManager: Warning: MAP Client profile was previously added but the UUID is now missing.
+10-05 10:03:36.248   298  1202 W ActivityManager: Receiver with filter android.content.IntentFilter@add2a88 already registered for pid 467, callerPackage is com.android.systemui
+10-05 10:03:36.248   467   467 D BluetoothHidDevice: onServiceConnected()
+10-05 10:03:36.248   467   467 D HidDeviceProfile: Bluetooth service connected :-)
+10-05 10:03:36.254   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:36.256  1174  1174 D BluetoothHidDevice: onServiceConnected()
+10-05 10:03:36.256  1174  1174 D HidDeviceProfile: Bluetooth service connected :-)
+10-05 10:03:36.265   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:38.799   148   287 I chatty  : uid=1041(audioserver) HwBinder:148_3 identical 233 lines
+10-05 10:03:38.810   148   287 W StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+10-05 10:03:39.263   173   173 E CarPowerManagerNative: Received unknown bootReason = 0
+10-05 10:03:39.264   173   173 E PowerTestService: ERROR:  Could not read bootReason!!
+10-05 10:03:44.265   173   173 E CarPowerManagerNative: Received unknown bootReason = 0
+10-05 10:03:44.265   173   173 E PowerTestService: ERROR:  Could not read bootReason!!
+10-05 10:03:49.267   173   173 E CarPowerManagerNative: Received unknown bootReason = 0
+10-05 10:03:49.267   173   173 E PowerTestService: ERROR:  Could not read bootReason!!

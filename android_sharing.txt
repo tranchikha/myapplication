@@ -1,0 +1,104 @@
+Order of reading *.rc
+init.rc => hihope.rc, usb.rc
+system/etc/init/ => vendor/etc/init
+
+
+
+Android triggers
+
+on early-init => on init => on charger
+on early-init => on init => on late-init => on fs => on post-fs => on post-fs-data => on early-boot => on boot
+=> sys.boot_completed=1
+
+=> For detail please see http://www.onsandroid.com/2014/10/in-depth-android-boot-sequence-process.html
+
+
+Critical
+This is a device-critical service. If it exits more than four times in four minutes, the device will reboor into recovery mode.
+
+Disabled
+This service will not automatically start with its class. It must be explicitly started by name.
+
+Setenv <name> <value>
+Set the environment variable <name> to <value> in the launched process.
+
+User <username>
+Change to username before executing this service. Currently defaults to root.
+
+Group <groupname> [<groupname>]
+Change to groupname before executing this service.
+
+Oneshot
+Do not restart the service when it exists
+
+Class <name>
+Specify a class name for the service. All services in a named class may be started or stopped together.
+
+Onrestart
+Execute a command when service restarts
+
+ 
+
+zygote : start Android Java VM Runtime and start system server. It’s the most important process.
+
+mediaserver : start AudioFlinger, MediaPlayerService and CameraService.
+mediaserver => AudioFlinger => AudioHAL => audio kernel.
+sp<ProcessState> proc(ProcessState::self());
+        sp<IServiceManager> sm = defaultServiceManager();
+        ALOGI("ServiceManager: %p", sm.get());
+        AudioFlinger::instantiate();
+        MediaPlayerService::instantiate();
+        CameraService::instantiate();
+        AudioPolicyService::instantiate();
+        registerExtensions();
+        ProcessState::self()->startThreadPool();
+        IPCThreadState::self()->joinThreadPool();
+
+ 
+
+After the above steps are completed,  Zygote launches the system services.  The Zygote forks a new process to launch the system services.
+
+Core services:
+
+Starting power manager
+Creating the Activity Manager
+Starting telephony registry
+Starting package manager
+Set activity manager service as system process
+Starting context manager
+Starting system contact providers
+Starting battery service
+Starting alarm manager
+Starting sensor service
+Starting window manager
+Starting Bluetooth service
+Starting mount service
+ 
+
+Other services:
+
+ 
+
+Starting status bar service
+Starting hardware service
+Starting NetStat service
+Starting connectivity service
+Starting Notification Manager
+Starting DeviceStorageMonitor service
+Starting Location Manager
+Starting Search Service
+Starting Clipboard Service
+Starting checkin service
+Starting Wallpaper service
+Starting Audio Service
+Starting HeadsetObserver
+Starting AdbSettingsObserver
+
+
+https://community.nxp.com/docs/DOC-102546
+https://android.googlesource.com/platform/system/core/+/master/init/README.md
+https://android.googlesource.com/platform/system/core/+/master/rootdir/init.rc
+https://android.googlesource.com/platform/system/core/+/android-4.2.2_r1.2/init/init.c
+https://blog.csdn.net/mawl2002/article/details/4295905
+https://stackoverflow.com/questions/29043494/what-is-the-list-of-all-android-init-language-triggers
+https://ayusch.com/android-internals-the-android-os-boot-process
